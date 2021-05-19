@@ -5,9 +5,9 @@ on:
     	limit: 1
 	filter:
         	content:
-            	$regex: ....+
+            		$regex: ....+
         	title:
-            	$regex: Evangelium
+            		$regex: Evangelium
 jobs:
   tweet:
     runs-on: ubuntu-latest
