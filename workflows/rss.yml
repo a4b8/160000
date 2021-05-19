@@ -3,11 +3,11 @@ on:
     url: https://www.sakrum.de/feeds/posts/default?alt=rss
     config:
     	limit: 1
-	filter:
-        	content:
-            		$regex: ....+
-        	title:
-            		$regex: Evangelium
+	    filter:
+        content:
+          $regex: ....+
+        title:
+        	$regex: Evangelium
 jobs:
   tweet:
     runs-on: ubuntu-latest
