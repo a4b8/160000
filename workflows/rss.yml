@@ -2,7 +2,7 @@ on:
   rss:
     url: https://www.sakrum.de/feeds/posts/default?alt=rss
     config:
-    	limit: 1
+      limit: 1
       filter:
         content:
           $regex: ....+
